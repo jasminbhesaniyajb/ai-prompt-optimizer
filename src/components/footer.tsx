@@ -12,7 +12,10 @@ export function Footer() {
                             Jasmin Bhesaniya
                         </a>
                     </p>
-                    <a href="mailto:jasminbhesaniyajb@gmail.com" className="text-xs text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5 transition-colors">
+                    <p className="text-[11px] font-medium text-muted-foreground/60 tracking-tight">
+                        © 2026 PromptOpt. All rights reserved.
+                    </p>
+                    <a href="mailto:jasminbhesaniyajb@gmail.com" className="text-xs text-muted-foreground hover:text-foreground inline-flex items-center gap-1.5 transition-colors mt-0.5">
                         <Mail className="h-3 w-3" />
                         jasminbhesaniyajb@gmail.com
                     </a>

@@ -1,3 +1,4 @@
+import { FeedbackModal } from "@/components/feedback-modal";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -47,6 +48,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
+            <FeedbackModal />
           </div>
         </ThemeProvider>
       </body>
