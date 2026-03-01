@@ -7,7 +7,7 @@
 
 A professional-grade open-source tool for software engineers to optimise, refine, and manage AI prompts. Transform rough ideas into high-quality prompts for any AI model (OpenAI, Anthropic, Gemini, etc.).
 
-![App Screenshot](https://via.placeholder.com/1200x600?text=AI+Prompt+Optimiser+UI)
+![App Screenshot](./public/assets/app-screenshot.png)
 
 ## 🎯 Key Features
 
