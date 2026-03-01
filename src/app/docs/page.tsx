@@ -1,5 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lightbulb, Rocket, Sparkles, Zap } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { BookOpen, Github, Lightbulb, Rocket, Sparkles, Zap } from "lucide-react";
 
 export default function DocsPage() {
     return (
@@ -99,6 +99,41 @@ export default function DocsPage() {
                             The most effective prompt engineers aren't just good writers—they are systems thinkers who understand how to structure information for maximum computational clarity.
                         </p>
                     </div>
+                </section>
+
+                <section className="space-y-4">
+                    <div className="flex items-center gap-2 text-xl font-semibold">
+                        <BookOpen className="h-5 w-5 text-primary" />
+                        <h2>Contribute</h2>
+                    </div>
+                    <Card className="border-primary/20 bg-primary/5">
+                        <CardHeader>
+                            <CardTitle className="text-lg">Help us grow</CardTitle>
+                            <CardDescription>
+                                PromptOpt is open-source. Whether you found a bug or have a feature idea, your contributions are welcome.
+                            </CardDescription>
+                        </CardHeader>
+                        <CardContent className="flex flex-wrap gap-4">
+                            <a
+                                href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer/issues/new"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-foreground/90 gap-2"
+                            >
+                                <Github className="h-4 w-4" />
+                                Raise an Issue
+                            </a>
+                            <a
+                                href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-muted gap-2"
+                            >
+                                <Sparkles className="h-4 w-4" />
+                                View Repository
+                            </a>
+                        </CardContent>
+                    </Card>
                 </section>
 
                 <div className="pt-8 border-t">

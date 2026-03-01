@@ -20,15 +20,6 @@ export function Header() {
                         <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">Home</Link>
                         <Link href="/docs" className="text-sm font-medium hover:text-primary transition-colors">Docs</Link>
                     </nav>
-                    <a
-                        href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hidden sm:flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
-                    >
-                        <Github className="h-4 w-4" />
-                        <span>Star on GitHub</span>
-                    </a>
                     <a href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer" target="_blank" rel="noreferrer" className="sm:hidden">
                         <Button variant="ghost" size="icon">
                             <Github className="h-5 w-5" />
