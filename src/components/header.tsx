@@ -20,7 +20,7 @@ export function Header() {
                         <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">Home</Link>
                         <Link href="/docs" className="text-sm font-medium hover:text-primary transition-colors">Docs</Link>
                     </nav>
-                    <a
+                    {/* <a
                         href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer"
                         target="_blank"
                         rel="noreferrer"
@@ -28,7 +28,7 @@ export function Header() {
                     >
                         <Github className="h-4 w-4" />
                         <span>Star on GitHub</span>
-                    </a>
+                    </a> */}
                     <a href="https://github.com/jasminbhesaniyajb/ai-prompt-optimizer" target="_blank" rel="noreferrer" className="sm:hidden">
                         <Button variant="ghost" size="icon">
                             <Github className="h-5 w-5" />
